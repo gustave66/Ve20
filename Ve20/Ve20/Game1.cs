@@ -4,11 +4,10 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Ve20
 {
-    /// <summary>
-    /// This is the main type for your game.
-    /// </summary>
     public class Game1 : Game
     {
+        Texture2D dwarf;
+
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
@@ -74,8 +73,6 @@ namespace Ve20
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-
-            // TODO: Add your drawing code here
 
             base.Draw(gameTime);
         }
