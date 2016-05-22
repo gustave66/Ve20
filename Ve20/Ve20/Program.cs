@@ -14,7 +14,7 @@ namespace Ve20
         [STAThread]
         static void Main()
         {
-            using (var game = new Game1())
+            using (var game = new RogueWaves.Game1())
                 game.Run();
         }
     }
